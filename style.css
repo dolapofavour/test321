@@ -4,3 +4,227 @@ body{
 p{
  background-color: silver;
 }
+html{
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+body{
+    font-family: monospace;
+    background-color: rgb(44, 36, 36);
+    padding: 0%;
+}
+.cont img{
+    margin-left: -40px;
+}
+.cont{
+overflow: hidden;
+font-weight: 700;
+font-size: 15px;
+margin-top: 1px;
+padding-top: 7px;
+padding-left: 35px;
+background: url(pexels-tima-miroshnichenko-5380642.jpg);
+background-size: cover;
+color: rgb(255, 255, 255);
+width: 100%;
+height: 50%;
+}
+.cont li:last-child{
+background-color: rgba(0, 0, 0, 0.308);
+border: 2px solid maroon;
+border-radius: 5px;
+padding: 2px;
+transition: 0.8s;
+}
+.cont li:last-child:hover{
+background-color: rgba(0, 0, 0, 0.308);
+border: 2px solid #00c0c0;
+transition: 0.8s;
+border-radius: 5px;
+padding: 2px;
+}
+.cont ul {
+list-style-type: none;
+}
+.cont ul li{
+display: inline;
+margin-inline: 20px;
+}
+.cont li:hover{
+border-bottom: 3px solid maroon;
+}
+.cont img{
+padding-right:600px;
+}
+.min{
+color: aliceblue;
+font-family: monospace;
+font-size: 13px;
+background-color: #00c0c0;
+padding: 1px;
+border-radius: 32px;
+text-align: center;
+width: 250px;
+}
+.min1{
+text-transform: uppercase;
+font-family: monospace;
+font-size: 50px;
+color: aliceblue;
+}
+.min2{
+text-transform: capitalize;
+font-size: 15px;
+margin-top: -30px;
+}
+#getst{
+background-color: #00c0c0;
+border: 1px solid #00c0c0;
+color: aliceblue;
+border-radius: 5px;
+font-size: 18px;
+padding: 8px 20px;
+transition: 0.8s;
+margin-bottom: 30px;
+}
+#getst3{
+margin-left: 20PX;
+background-color: #00c0c0;
+border: 2px solid #00c0c0;
+color: aliceblue;
+border-radius: 10px;
+font-size: 18px;
+padding: 8px 20px;
+transition: 0.8s;
+}
+#getst1{
+background-color: #0063c05d;
+border: 1px solid #00c0c0;
+color: aqua;
+border-radius: 5px;
+font-size: 18px;
+padding: 8px 20px;
+transition: 0.8s;
+}
+#getst2{
+background-color: #3f85b471;
+border: 1px solid #00c0c0;
+color: maroon;
+border-radius: 5px;
+font-size: 18px;
+padding: 8px 20px;
+transition: 0.8s;
+}
+#getst:hover, #getst1:hover, #getst2:hover, #getst3:hover{
+opacity: 0.6;
+transition: 0.8s;
+}
+#cont22{
+width: 100%;
+background-color: antiquewhite;
+padding: 10px;
+}
+#cont22 #offer{
+font-weight: 600;
+text-transform: uppercase;
+padding-left: 20px;
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+}
+a{
+text-decoration: none;
+color: aliceblue;
+text-decoration: none;
+}
+#btt{
+scroll-behavior: smooth;
+margin-left: 45%;
+background-color: #000000;
+border: 2px solid #00c0c0;
+color: aliceblue;
+border-radius: 16px;
+font-size: 18px;
+padding: 8px 20px;
+transition: 0.8s;
+}
+#cpy{
+margin: auto;
+text-align: center;
+color: azure;
+padding: 15px;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(167, 167, 167);
+    color: aliceblue;
+}
+#tteett{
+    max-width: 300px;
+    max-height: 50px;
+}
+#contsuv{
+    margin: auto;
+    background: url(pexels-athena-2582937.jpg);
+    width: 600px;
+    padding: 30px;
+    background-size: contain;
+    border-radius: 24px;
+    
+}
+#subcont{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+body{
+    background-color: rgb(85, 85, 85);
+    color: aliceblue;
+   }
+   #cln{
+    border-radius: 24px;
+    margin: auto;
+    align-items: center;
+    background: url(pexels-pixabay-60504.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+   }
+
+   input[type='name'], input[type='email'], input[type='password']{
+    margin-left: 35px;
+    align-items: center;
+    border: none; 
+    width: 230px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: rgba(240, 248, 255, 0.555);
+   }
+   #info1{
+    margin-left: 10px;
+   }
+   #btnad{
+    border: 2px solid rgb(4, 148, 148);
+    border-radius: 16px;
+    margin-left: 60px;
+    font-size: 18px;
+    padding: 5PX;
+    background-color: rgb(4, 148, 148);
+    color: aliceblue;
+    transition: 1s;
+    
+   }
+   #btnad:hover{
+    transition: 1s;
+    color: rgb(109, 109, 109);
+    background-color: aqua;
+    border: 2px solid aqua;
+   }
+   img{
+    margin-left: 50px;
+    width: 200px;
+   }
