@@ -1,0 +1,24 @@
+
+body{
+    background-color: rgb(167, 167, 167);
+    color: aliceblue;
+}
+#tteett{
+    max-width: 300px;
+    max-height: 50px;
+}
+#contsuv{
+    margin: auto;
+    background: url(pexels-athena-2582937.jpg);
+    width: 600px;
+    padding: 30px;
+    background-size: contain;
+    border-radius: 24px;
+    
+}
+#subcont{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 10px;
+    border-radius: 16px;
+}

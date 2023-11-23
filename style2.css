@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(85, 85, 85);
+    color: aliceblue;
+   }
+   #cln{
+    border-radius: 24px;
+    margin: auto;
+    align-items: center;
+    background: url(pexels-pixabay-60504.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+   }
+
+   input[type='name'], input[type='email'], input[type='password']{
+    margin-left: 35px;
+    align-items: center;
+    border: none; 
+    width: 230px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: rgba(240, 248, 255, 0.555);
+   }
+   #info1{
+    margin-left: 10px;
+   }
+   #btnad{
+    border: 2px solid rgb(4, 148, 148);
+    border-radius: 16px;
+    margin-left: 60px;
+    font-size: 18px;
+    padding: 5PX;
+    background-color: rgb(4, 148, 148);
+    color: aliceblue;
+    transition: 1s;
+    
+   }
+   #btnad:hover{
+    transition: 1s;
+    color: rgb(109, 109, 109);
+    background-color: aqua;
+    border: 2px solid aqua;
+   }
+   img{
+    margin-left: 50px;
+    width: 200px;
+   }
