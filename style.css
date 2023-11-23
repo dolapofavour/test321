@@ -1,9 +1,3 @@
-body{
-    background-color: maroon;
-}
-p{
- background-color: silver;
-}
 html{
     scroll-behavior: smooth;
     transition: 1s;
