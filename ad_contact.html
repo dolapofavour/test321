@@ -5,29 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AD-TECH CONTACT</title>
     <link rel="icon" href="LGLAD.png">
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
-    <style>
-        #nav1{
-            background-color: maroon;
-            width: 100%;
-        }
-        #nav ul{
-            list-style-type: none;
-        }
-    </style>
-   <navbar id="nav1">
-    <ul>
-        <li>Help ?</li>
-        <li>Login</li>
-        <li>Back to Home</li>
-    </ul>
-   </navbar>
-   <br><br>
-   <h2>Contact Us</h2>
-   <br>
-   <input type="name" placeholder="Enter name"><br>
-   <input type="email" placeholder="example123@gmail.com"><br>
-   <textarea name="message" id="message" cols="30" rows="5"></textarea> 
+    <img src="LGLAD.png" alt="company logo" width="150px"  >    
+    <select name="funct" id="funct">
+        <option value="Others">Others</option>
+        <option value=""><a href="">Help ?</a></option>
+        <option value="login">Login</option>
+        <option value=""><a href="Index.html">Main page</a></option>
+    </select>   
+    <br><br>
+      <div id="contcs">
+        <h2>Contact Us</h2>
+        <br>
+        <label for="name">Name:</label>
+        <input type="name" placeholder="Enter name"><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" placeholder="example123@gmail.com"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="message here"></textarea><br><br>
+        <input type="button" value="submit">
+        <br><br>
+      </div>
 </body>
 </html>
