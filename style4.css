@@ -1,0 +1,88 @@
+body{
+            
+    color: aliceblue;
+    background-color: black;
+}
+#sp1{
+    padding-top: 20px;
+    margin-left: 10%;
+    width: 180px;
+}
+#main2{
+    font-size: 40px;
+    margin-left: 10%;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sp2{
+    margin-left: 10%;
+    border-radius: 24px;
+    width: 200px;
+    height: 200px;
+}
+#sp3{
+    margin-left: 10%;
+    text-transform: capitalize;
+}
+#contbg{
+    background-color: silver;
+    padding: 10px;
+    border-radius: 24px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#sp4{
+    margin: auto;
+    text-align: center;
+    background-color: maroon;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#box3{
+    margin: auto;
+    display: flex;
+}
+#c1 img{
+    width: 50px;
+}
+#c1{
+    margin: auto;
+    font-family: monospace;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: aliceblue;
+    color: black;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: 1s;
+}
+#c1:hover{
+    background-color: rgba(0, 0, 0, 0.726);
+    transition: 2s;
+    color: aliceblue;
+}
+    input[type='button']{
+    margin-right: -50px;
+    background-color: maroon;
+    color: aliceblue;
+    border: none;
+    margin: auto;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 16px;
+    margin: auto;
+    overflow: hidden;
+    transition: 1s;
+}
+input[type='button']:hover{
+    background-color: rgba(128, 0, 0, 0.658);
+}
+#cus{
+    margin: auto;
+}
