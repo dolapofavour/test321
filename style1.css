@@ -22,3 +22,15 @@ body{
     padding: 10px;
     border-radius: 16px;
 }
+#lstbn{
+    background-color: maroon;
+    padding: 8px 20px;
+    border: none;
+    color: aliceblue;
+    border-radius: 20px;
+    transition: 1s;
+}
+#lstbn:hover{
+    background-color: rgb(163, 37, 37);
+    transition: 1s;
+}
