@@ -1,0 +1,29 @@
+body{
+    margin-left: 80px;            
+    color: aliceblue;
+    background-color: silver;
+}
+h2{
+    background-color: maroon;
+    width: fit-content;
+    padding: 3px;
+    color: aliceblue;
+}
+p{
+margin: auto;
+width: 50%;
+border-radius: 25px;
+padding: 15px;
+background-color: rgba(0, 0, 0, 0.829);
+}
+input[type='button']{
+    padding: 8px 20px;
+    background-color: maroon;
+    border: none;
+    color: aliceblue;
+    transition: 1s;
+}
+input[type='button']:hover{
+    opacity: 0.8;
+    transition: 1s;
+}

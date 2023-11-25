@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+#fk{
+    margin:auto;
+    background-color: aliceblue;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 16px;
+}
+p{
+    text-transform: capitalize;
+}
+input[type='button']{
+    padding: 8px 20px;
+    background-color: maroon;
+    border: none;
+    color: aliceblue;
+    border-radius: 24px;
+}
