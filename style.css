@@ -11,6 +11,25 @@ html{
 .cont img{
     margin-left: -40px;
 }
+
+@media screen and (max-width: 768px) {
+    .cont img {
+        padding-right: 5%;
+    }
+
+    .cont {
+        padding-left: 15px;
+    }
+
+    .min1 {
+        font-size: 40px;
+    }
+
+    .min2 {
+        font-size: 14px;
+    }
+}
+
 .cont{
 overflow: hidden;
 font-weight: 700;

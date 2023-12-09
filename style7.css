@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(0, 0, 0, 0.932);
+}
+h2{
+    text-align: center;
+}
+#views{
+    text-transform: capitalize;
+    margin: auto;
+    padding-top: 15%;
+    text-align: center;
+    background-color: rgb(95, 158, 160);
+
+}
+button{
+    text-transform: capitalize;
+    overflow: hidden;
+    padding: 8px 20px;
+    color: white;
+    background-color: darkblue;
+    border: none;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+button:hover{
+    opacity: 0.6;
+    transition: 0.8s;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
