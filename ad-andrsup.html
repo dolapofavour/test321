@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AD-TECH Login Page</title>
+  <link rel="icon" href="LGLAD.png">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<br>
+<img src="LGLAD.png" id="lgnlgo" alt="AD-TECH LOGO" width="180px">
+  <div id="cln">
+    <div id="cln2" style="background-color: rgba(0, 41, 128, 0.24); padding-top:8px; border-radius: 16px; height: 390PX;">
+      <p id="info1" >Enter The Correct Information...</p>
+      <input type="name"  id="username" placeholder="enter your name"><br><br>
+      <input type="name" placeholder="enter User name"><br><br>
+      <input type="email" placeholder="enter email address"><br><br>
+      <input type="password" id="password" placeholder="enter password"><br><br>
+      <a href="ad-andrtst.html"><input type="button" id="btnad" value="Sign up"></a>
+    </div>
+  </div>
+
+  <script>
+    function attemptLogin() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        
+        if (validateForm(username, password)) {
+            alert("Login successful!");
+            // Add code for actual login process here
+        } else {
+            alert("Please complete the form before logging in.");
+        }
+    }
+
+    function validateForm(username, password) {
+        return username.trim() !== "" && password.trim() !== "";
+    }
+</script>
+</body>
+</html>
