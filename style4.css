@@ -62,7 +62,7 @@ body{
     overflow: hidden;
     transition: 1s;
 }
-#c1:hover{
+#c1:active{
     background-color: rgba(0, 0, 0, 0.726);
     transition: 2s;
     color: aliceblue;
@@ -85,4 +85,14 @@ input[type='button']:hover{
 }
 #cus{
     margin: auto;
+}
+@media only screen and (max-width:740px){
+    #c1{
+        border-radius: 0px;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+#CPP{
+    text-align: center;
 }
