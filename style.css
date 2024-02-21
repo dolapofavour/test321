@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
 html{
     
     scroll-behavior: smooth;
@@ -9,7 +13,7 @@ html{
     
 }
 .cont img{
-    margin-left: -40px;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -61,6 +65,7 @@ padding: 2px;
 list-style-type: none;
 }
 .cont ul li{
+
 display: inline;
 margin-inline: 15px;
 }
@@ -75,7 +80,7 @@ color: aliceblue;
 font-family: monospace;
 font-size: 13px;
 background-color: #00c0c0;
-padding: 1px;
+padding: 16px 8px;
 border-radius: 32px;
 text-align: center;
 width: 250px;
@@ -89,7 +94,7 @@ color: aliceblue;
 .min2{
 text-transform: capitalize;
 font-size: 15px;
-margin-top: -30px;
+margin-top: -6px;
 }
 #getst{
 background-color: #00c0c0;
@@ -186,3 +191,54 @@ img{
     width: 200px;
    }
 
+@media only screen and (max-width: 720px){
+    #up img{
+        display: none;
+    }
+    #up{
+        margin-top: 20px;
+        display: flex;
+    }
+.cont #up li{
+        margin-inline: 5px;
+}
+ul{
+    padding-left: -10px;
+}
+
+.cont ul li:last-child{
+    text-decoration: none;
+    }
+.min{
+        color: aliceblue;
+        font-family: monospace;
+        font-size: 13px;
+        background-color: #00c0c0;
+        padding: 8px 4px;
+        border-radius: 2px;
+        text-align: center;
+        width: 250px;
+        }
+    .min1{
+            text-transform: uppercase;
+            font-family: monospace;
+            font-size: 25px;
+            color: aliceblue;
+            }
+.min2{
+            text-transform: capitalize;
+            font-size: 12px;
+            margin-top: 6px;
+            }
+            #imgs img{
+                margin-top: 10px;
+                display: block;
+                margin-left: 20px;
+            }
+            
+            #getst3, #getst2, #btt{
+                display: block;
+                margin: 0%;
+                margin-top: 10px;
+            }
+    }

@@ -1,15 +1,27 @@
 body{
     background-color: rgba(0, 0, 0, 0.932);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: silver;
+}
+*{
+    margin: 0%;
+    padding: 0%;
 }
 h2{
+    color: aliceblue;
+    font-family: sans-serif;
     text-align: center;
 }
 #views{
+    height: 50%;
     text-transform: capitalize;
     margin: auto;
     padding-top: 15%;
     text-align: center;
-    background-color: rgb(95, 158, 160);
+    background:url('pexels-panumas-nikhomkhai-17489150.jpg');
+    background-size: cover;
 
 }
 button{
@@ -17,16 +29,79 @@ button{
     overflow: hidden;
     padding: 8px 20px;
     color: white;
+    width: 25%;
     background-color: darkblue;
     border: none;
     border-radius: 10px;
-    transition: 0.8s;
+    transition: 1s;
 }
 button:hover{
-    opacity: 0.6;
-    transition: 0.8s;
+    
+    transition: ease-in-out;
+    background: linear-gradient(45deg, darkblue, rgb(0, 183, 255));
+    box-shadow: 3px 4px 3px black;
+    transition: 1s;
 }
 a{
     color: aliceblue;
     text-decoration: none;
+}
+#view2{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+    backdrop-filter: blur(5px);
+}
+@media only screen and (max-width:760px){
+    body{
+        background-color: rgba(0, 0, 0, 0.932);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 400;
+        color: aliceblue;
+        background-color: silver;
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    h2{
+        color: aliceblue;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    #views{
+        height: 50%;
+        text-transform: capitalize;
+        margin: auto;
+        padding-top: 15%;
+        text-align: center;
+        background:url('pexels-panumas-nikhomkhai-17489150.jpg');
+        background-size: cover;
+    
+    }
+    button{
+        text-transform: capitalize;
+        overflow: hidden;
+        padding: 8px 20px;
+        color: white;
+        width: 30%;
+        background-color: darkblue;
+        border: none;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    button:active{
+        transition: ease-in-out;
+        background: linear-gradient(45deg, darkblue, rgb(0, 183, 255));
+        box-shadow: 3px 4px 3px black;
+        transition: 1s;
+    }
+    a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    #view2{
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.568);
+        backdrop-filter: blur(5px);
+    }  
 }

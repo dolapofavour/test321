@@ -12,7 +12,7 @@ body{
     background: url(pexels-athena-2582937.jpg);
     width: 600px;
     padding: 30px;
-    background-size: contain;
+    background-size: cover;
     border-radius: 24px;
     
 }
@@ -21,6 +21,9 @@ body{
     background-color: rgba(0, 0, 0, 0.63);
     padding: 10px;
     border-radius: 16px;
+}
+input{
+    accent-color: maroon;
 }
 #lstbn{
     background-color: maroon;
@@ -35,17 +38,16 @@ body{
     transition: 1s;
 }
 @media only screen and (max-width:730px) {
-    #subcont{
-        width: 50%;
-        overflow: hidden;
-    }
-    #contsuv{
-        background-image: none;
-    }
-    img{
-        margin-left: 30%;
-    }
-    body{
-        margin: auto;
-    }
+img{
+    display: none;
+}
+#contsuv{
+    margin: auto;
+    background: url(pexels-athena-2582937.jpg);
+    width: 300px;
+    padding: 15px;
+    background-size: contain;
+    border-radius: 24px;
+   
+}
 }

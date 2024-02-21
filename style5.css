@@ -27,3 +27,40 @@ input[type='button']:hover{
     opacity: 0.8;
     transition: 1s;
 }
+@media only screen and (max-width:800px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+        background-color: black;
+    }
+    h2{
+        margin: auto;
+        margin:0%;
+        margin-top: 10%;
+        border-radius: 16px;
+        padding: 8px;
+    }
+    #par{
+        margin-left: -80px;
+    }
+    p{
+        line-height: 20px;
+        margin: 0%;
+        font-size: 13px;
+        width: 95%;
+        margin: auto;
+        
+    }
+    input[type='button']{
+        padding: 8px 20px;
+        background-color: maroon;
+        border: none;
+        color: aliceblue;
+        border-radius: 8px;
+        margin: 0%;
+        margin-top: 10px;
+    }
+    
+}
