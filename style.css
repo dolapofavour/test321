@@ -14,14 +14,10 @@ html{
 }
 .cont img{
     margin-left: 10px;
+    padding-right: 5%;
 }
 
-@media screen and (max-width: 768px) {
-    .cont img {
-        padding-right: 5%;
-    }
-
-    .cont {
+.cont {
         padding-left: 15px;
     }
 
@@ -32,7 +28,6 @@ html{
     .min2 {
         font-size: 14px;
     }
-}
 
 .cont{
 overflow: hidden;
@@ -47,14 +42,15 @@ color: rgb(255, 255, 255);
 max-width: 100%;
 height: 50%;
 }
-.cont li:last-child{
+.cont ul #last a{
 background-color: rgba(0, 0, 0, 0.308);
 border: 2px solid maroon;
 border-radius: 5px;
-padding: 2px;
+padding: 4px;
 transition: 0.8s;
 }
-.cont li:last-child:hover{
+
+.cont ul #last a:hover{
 background-color: rgba(0, 0, 0, 0.308);
 border: 2px solid #00c0c0;
 transition: 0.8s;
@@ -65,13 +61,17 @@ padding: 2px;
 list-style-type: none;
 }
 .cont ul li{
-
-display: inline;
-margin-inline: 15px;
+    padding: 15px;
+    font-size: 15px;
 }
-.cont li:hover{
+.cont ul #fir a:hover{
 border-bottom: 3px solid maroon;
 }
+#up{
+    display: flex;
+    
+}
+
 .cont img{
 padding-right:600px;
 }
@@ -190,8 +190,16 @@ img{
     margin-left: 50px;
     width: 200px;
    }
-
+   span, #closebtn{
+    visibility: hidden;
+   }
+/* for android 
+    for android 
+     for android */
 @media only screen and (max-width: 720px){
+    span, #closebtn{
+        visibility: visible;
+       }
     #up img{
         display: none;
     }
@@ -199,16 +207,29 @@ img{
         margin-top: 20px;
         display: flex;
     }
-.cont #up li{
+    #up{
+        padding: 0%;
+        margin: 0%;
+        padding:10px 10px ;
+        margin-top: -8px;
+        margin-left: -35px;
+        background-color: #000000;
+    }
+      #main1 .cont ul #last{
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+    }
+
+.cont ul #fir{
+    color: aliceblue;
+    font-size: 13px;
         margin-inline: 5px;
 }
 ul{
     padding-left: -10px;
 }
 
-.cont ul li:last-child{
-    text-decoration: none;
-    }
 .min{
         color: aliceblue;
         font-family: monospace;
@@ -241,4 +262,52 @@ ul{
                 margin: 0%;
                 margin-top: 10px;
             }
+            #up {padding-top: 15px;}
+        #up a {font-size: 18px;}
+        #closebtn{
+            position: relative;
+            color: #f7f6f6;
+            top: 0;
+            right:30px;
+            margin-left: 80%;
+
+        }
+        #closebtn:hover{
+            color: maroon;
+            transition: 1.5s;
+        }
+        span, h1{
+            color:aliceblue;
+            margin: 0%;
+            margin-left: -30px;
+        }
+        #up{
+            background-color: rgba(0, 0, 0, 0.623);
+            backdrop-filter: blur(10px);
+            width: 0px;
+            display: block;
+            color: white;
+            transition: 1s;
+            height: 100%;
+            position: fixed;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 40px ;
+        }
+        #up a{
+            /*border: 1px solid #818181;
+            border-left: none;
+            border-right: none; */
+            display: block;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            color: #818181;
+            text-align: center;
+            /* text-align: center; */
+            padding: 8px 8px 8px 20px;
+            
+        }
     }

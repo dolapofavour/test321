@@ -12,12 +12,14 @@
     <div class="cont">
         <ul id="up"  >
             <img src="LGLAD.png" width="180px" alt="company logo">
-            <li><a href="ad_blog.html">HOME</a></li>
-            <li><a href="ad_case.html">CASE STUDIES</a></li>
-            <li><a href="ad_blog.html">SERVICES</a></li>
-            <li><a href="ad_blog.html">BLOG</a></li>
-            <LI><a href="ad_contact.html">CONTACT</a></LI>
+            <a href="javascript:void(0)" onclick="closeside()" id="closebtn">&times;</a>
+            <li id="fir"><a href="ad_blog.html">HOME</a></li>
+            <li id="fir"><a href="ad_case.html">CASES</a></li>
+            <li id="fir"><a href="ad_blog.html">SERVICES</a></li>
+            <li id="fir"><a href="ad_blog.html">BLOG</a></li>
+            <LI id="last"><a href="ad_contact.html">CONTACT</a></LI>
         </ul>
+        <span  style="font-size: 30px;cursor: pointer;" onclick="openside()">&#9776; OPEN</span>
         <br><br><br>
         <div class="min">
             <p>SECURE AND GUARANTEED</p>
@@ -55,4 +57,12 @@
         </div>
         <p id="cpy">&COPY; ND2 COMPUTER SCIENCE PROJECT</p>
 </body>
+<script>
+    function openside(){
+        document.getElementById("up").style.width="250px";
+    }
+    function closeside(){
+        document.getElementById("up").style.width="0px";
+    }
+   </script>
 </html>

@@ -15,10 +15,10 @@ h2{
     text-align: center;
 }
 #views{
+    padding-top: 90px;
     height: 50%;
     text-transform: capitalize;
     margin: auto;
-    padding-top: 15%;
     text-align: center;
     background:url('pexels-panumas-nikhomkhai-17489150.jpg');
     background-size: cover;
@@ -29,7 +29,8 @@ button{
     overflow: hidden;
     padding: 8px 20px;
     color: white;
-    width: 25%;
+    cursor: pointer;
+    width: 15%;
     background-color: darkblue;
     border: none;
     border-radius: 10px;
@@ -47,9 +48,34 @@ a{
     text-decoration: none;
 }
 #view2{
-    padding: 10px;
+    padding: 60px;
     background-color: rgba(0, 0, 0, 0.568);
     backdrop-filter: blur(5px);
+}
+#con{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(193, 209, 223);
+    width: 30%;
+    box-shadow: 7px 07px 10px rgba(0, 0, 0, 0.466) ;
+    height: 5%;
+    padding: 2%;
+    margin: auto;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 24px;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    transition: 0.8s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    0%{background-color: rgb(181, 206, 253);}
+    50%{background-color: rgb(166, 231, 67);}
+    100%{background-color: rgb(240, 202, 146);}
+}
+pre{
+    color: rgb(138, 141, 145);
 }
 @media only screen and (max-width:760px){
     body{
@@ -57,7 +83,7 @@ a{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-weight: 400;
         color: aliceblue;
-        background-color: silver;
+        background-color: rgba(192, 192, 192, 0.514);
     }
     *{
         margin: 0%;
@@ -76,7 +102,6 @@ a{
         text-align: center;
         background:url('pexels-panumas-nikhomkhai-17489150.jpg');
         background-size: cover;
-    
     }
     button{
         text-transform: capitalize;
@@ -104,4 +129,29 @@ a{
         background-color: rgba(0, 0, 0, 0.568);
         backdrop-filter: blur(5px);
     }  
+    #con{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: rgb(193, 209, 223);
+        width: 80%;
+        box-shadow: 7px 07px 10px rgba(0, 0, 0, 0.466) ;
+        height: 40%;
+        padding: 6%;
+        margin: auto;
+        color: black;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 24px;
+        animation-name: colorchange;
+        animation-duration: 4s;
+        transition: 0.8s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes colorchange{
+        0%{background-color: rgb(181, 206, 253);}
+        50%{background-color: rgb(166, 231, 67);}
+        100%{background-color: rgb(240, 202, 146);}
+    }
+    pre{
+        color: rgb(138, 141, 145);
+    }
 }
